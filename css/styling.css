@@ -1,0 +1,271 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+  font-family: "Space Mono", monospace;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: black;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+  colour: black;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #black;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: grey;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: white;
+}
+.bg-lilac {
+  background-color: white;
+}
+.btn-primary {
+  color: black;
+  background-color: white;
+  border-color: black;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border-width: medium;
+}
+
+.btn-active {
+  color: white;
+  background-color: none;
+  border-color: white;
+}
+
+.btn-primary .badge {
+  color: white;
+  background-color: none;
+}
+.btn-xl {
+  color: white;
+  background-color: none;
+  border-color: white;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+  margin: 20px 0px 20px 0px;
+}
+.btn-xl:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+section {
+  padding: 100px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  text-transform: none;
+  margin-bottom: 75px;
+  color: white;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+aside.clients img {
+  margin: 50px auto;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: grey;
+}
+
+/*.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  /*-webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  /*z-index: 1051;
+}*/
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: grey;
+}
+::selection {
+  text-shadow: none;
+  background: grey;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: grey;
+}

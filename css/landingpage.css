@@ -1,0 +1,58 @@
+
+header {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /*background-position: center center;*/
+  background-color: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: left;
+  color: white;
+}
+header .intro-text {
+  /*padding-top: 100px;*/
+  padding-bottom: 50px;
+  color: white;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 80%;
+  color: white;
+}
+header .intro-text .intro-heading {
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 50%;
+  color: white;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Space Mono", monospace;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Space Mono", monospace;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+
+#headline {
+  font-size:25px;
+  margin-bottom: 20px;
+}
